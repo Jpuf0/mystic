@@ -1,0 +1,13 @@
+{
+  "extends": "@smol-code/tsconfig",
+  "compilerOptions": {
+    "types": [
+      "node",
+    ],
+    "outDir": "build",
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*"
+  ]
+}
